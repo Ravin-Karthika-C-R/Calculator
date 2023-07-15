@@ -13,11 +13,16 @@
     background: white;
 }
 .calc{
+     display: flex;
+     flex-direction: row;
      background: #252148;
      padding: 20px;
      border-radius: 10px;
 }
-.calc form input{
+/* .calc form{
+    display: flex;
+} */
+.calc form button{
     border: 0;
     outline: 0;
     width: 60px;
